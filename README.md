@@ -1,6 +1,12 @@
-# Getting Started with Create React App
+# Cookbook Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
+
+This project was is a react app of a cookbook website consisting of multiple cusine w/ recipies included. It is a front-end application that utilizes 'react-router-dom' for routing and reusuable cards. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Reflection
+
+Some things that can be improved would be to create a smoother responsive design and create a back-end server that would store, upload, and change data to save code. 
 
 ## Available Scripts
 
