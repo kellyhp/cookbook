@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Vina+Sans&display=swap');
+.front-page{
+    height: 100%;
+    width:75%;
+    position: relative;
+    top: 100px;
+    left: 275px;
+    z-index: 0;
+}
+
+.About-Me{
+    font-family: 'Inter', sans-serif;
+    color: #20262E;
+    border-radius: 25px 25px 0px 0px;
+    background: beige;
+    top: 0px;
+    left: 0px;
+    position: relative;
+    word-wrap: break-word;
+    padding: 20px;
+    border: 3px solid #20262E;
+    height: 250px;
+}
+
+.box1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    font-size: 30px;
+
+}
+
+ .paragraph1 {
+    word-wrap: break-word;
+    text-align: left;
+    font-size: 16px;
+    margin-left: 40px;
+ } 
+
+ .Three-E {
+    font-family: 'Inter', sans-serif;
+    color: beige;
+    background: #20262E;
+    top: 0px;
+    left: 0px;
+    position: relative;
+    word-wrap: break-word;
+    padding: 20px;
+    text-align: left;
+  }
+
+
+  .sectionE{
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .threebox {
+    height: 300px;
+    width: 270px;
+    margin: 15px;
+    padding: 0;
+    overflow: hidden;
+    cursor: pointer;
+    display:flex;
+    background-color: #9CA777;
+    border-radius: 6px;
+    border-radius: 15px;
+    word-wrap: break-word;
+    text-align: center;
+    color:#20262E;
+    flex-direction: column;
+    flex-shrink: 0;
+    
+  }
+
+  .threebox:hover{
+    transition: all 0.3s ease 0s;
+    opacity: 1;
+    color:beige;
+  }
+
+  .section1-image {
+    background: url('../assets/payment.png') no-repeat;
+    background-size:contain;
+    height: 150px;
+    width: 150px;
+    overflow: hidden;
+    z-index: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+  }
+
+  .section2-image {
+    background: url('../assets/groceries.png') no-repeat;
+    background-size:contain;
+    height: 150px;
+    width: 150px;
+    overflow: hidden;
+    z-index: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+
+  }
+
+  .section3-image {
+    background: url('../assets/cooking.png') no-repeat;
+    background-size:contain;
+    height: 150px;
+    width: 150px;
+    overflow: hidden;
+    z-index: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+  }
+  
+  .Cuisine {
+    text-align: left;
+    font-family: 'Inter', sans-serif;
+    color: #20262E;
+    border-radius: 0px 0px 25px 25px;
+    background: beige;
+    top: 0px;
+    left: 0px;
+    position: relative;
+    word-wrap: break-word;
+    padding: 20px;
+    border: 3px solid #20262E;
+  }
+
+  .carrot {
+    background: url('../assets/carrot.png') no-repeat;
+    background-size:contain;
+    height: 50px;
+    width: 50px;
+    overflow: hidden;
+    z-index: 5px;
+    top: 35px;
+    left: 340px;
+    position: absolute;
+  }
+
+
+  .Button-a{
+    background-color: beige;
+    color: #20262E;
+    font-size: 20px;
+    font-weight: bold;
+    height: 100px;
+    width: 300px;
+    border-radius: 15px;
+    text-align: center;
+    cursor: pointer;
+    border: 2px solid #20262E;
+    font-family: 'Quicksand', sans-serif;
+    display: compact;
+    margin: 0px 0px 30px 50px;
+}
+
+.Button-a:hover{
+    color: beige;
+    background-color: #20262E;
+    transition: all 0.3s ease 0s;
+}
+
+@keyframes load {
+    0% {
+        background: #fff;
+        border: 0px solid #fff;
+   }
+    50% {
+        background: #fff;
+        border: 5px solid #56a974;
+   }
+    100% {
+        background: #fff;
+        border: 0px solid #56a974;
+   }
+}
+@media (max-width:720px){
+  .About-Me{
+    height: 500px;
+  }
+  .front-page{
+    width:100%;
+    position: relative;
+    top: 100px;
+    left: 0px;
+    z-index: 0;
+  }
+
+}

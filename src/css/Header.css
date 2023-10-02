@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Vina+Sans&display=swap');
+
+/* sizing of the header mobile view
+remove nav bar and add a responsive sidebar */
+
+.header{
+    font-family : 'Vina Sans', cursive;
+}
+
+.li{
+    background-color: none;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    font-family: 'Vina Sans', cursive;
+    font-size: 30px;
+    position: fixed;
+    top: -30px;
+    left: 250px;
+    height: 30px;
+    width: 100%;
+    max-width: calc(100% - 20px);
+    z-index: 10; 
+    padding: 16px;
+    background-color: #20262E;
+    border-radius: 15px;
+
+}
+
+.nav-item{
+    margin-right: 15px;
+    margin-left: 30px;
+    cursor: pointer;
+    color: beige;
+    display: flex;
+    gap: 0.25rem;
+    top:-30px;
+    font-family: 'Vina Sans', cursive;
+    font-size: 30px;
+    text-decoration-line: underline; 
+}
+
+.nav-item:hover{
+    color:#9CA777; 
+    transition: all 0.3s ease 0s;
+}
+
+.nav-item1{
+    margin-right: 15px;
+    margin-left: 30px;
+    cursor: pointer;
+    color: beige;
+    display: flex;
+    gap: 0.25rem;
+    top:-30px;
+    font-family: 'Vina Sans', cursive;
+    font-size: 30px;
+    text-decoration-line: underline; 
+}
+
+.nav-item1:hover{
+    color:#9CA777; 
+}
+
+.header-logo {
+    height:400px;
+    width:250px;
+    position: fixed;
+    top: 0px;
+    z-index: 15;
+    overflow: hidden;
+}
+
+.line {
+    border-left: 3px solid #20262E;
+    height: 350px;
+    position: absolute;
+    left: 83px;
+    top: -30px;
+  }
+
+.top {
+    font-family : 'Vina Sans', cursive;
+    font-size: 50px;
+    float: left;
+    margin: -1% 0 30px 0;
+    padding: 5px 0 0 0;
+    width: 100%;
+}
+
+.title1 {
+    color: #20262E;
+    position: relative;
+    top: 0px;
+    left: 35px;
+    width: 100%;
+    text-decoration-line: underline; 
+    cursor: pointer; 
+}
+
+.title2 {
+  color: #20262E;
+  position: relative;
+  top: 2px;
+  left: -75px;
+  text-decoration-line: underline;
+  cursor: pointer;  
+}
+
+.title3 {
+  color: #20262E;
+  position: relative;
+  top: 3px;
+  left: 10px;
+  text-decoration-line: underline;
+  cursor: pointer;  
+}
+
+.rounded {
+    background: url('../assets/shovel.jpg') no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    border: 2px solid #20262E;;
+    transform: rotate(290deg);
+    left: 10px;
+    position: relative;
+    cursor: pointer;
+    top: 240px;
+    left: 40px;
+  }
+
+@keyframes load {
+    0% {
+        background: #fff;
+        border: 0px solid #fff;
+   }
+    50% {
+        background: #fff;
+        border: 5px solid #56a974;
+   }
+    100% {
+        background: #fff;
+        border: 0px solid #56a974;
+   }
+}
+@media (max-width:720px){
+    .header-logo{
+        display: none;
+    }
+    .navbar{
+        left: 0px;
+    }
+    .nav-item1{
+        display: normal;
+        font-size: 16px;
+    }
+    .nav-item{
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 720px) {
+    .nav-item1{
+       display: none;
+    }
+}
+
