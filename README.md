@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project was is a react app of a cookbook website consisting of multiple cusine w/ recipies included. It is a front-end application that utilizes 'react-router-dom' for routing and reusuable cards. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was is a react app of a cookbook website consisting of multiple cuisines w/ recipies included. It is a front-end application that utilizes 'react-router-dom' for routing and reusuable cards. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). Last Updated: Jan 2023
 
 ## Reflection
 
